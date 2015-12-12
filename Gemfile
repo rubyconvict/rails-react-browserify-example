@@ -23,6 +23,19 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# curl https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
+# nvm ls-remote
+# nvm install 0.10.39
+# nvm use v0.10.39
+
+# not working:
+# nvm install iojs
+# .bashrc
+# export NVM_DIR=~/.nvm
+# source $(brew --prefix nvm)/nvm.sh%
+# nvm alias default iojs
+# which node
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -48,4 +61,4 @@ end
 gem 'react-rails', '~> 1.0'
 
 # browserify-rails helps with Browserify integration within Rails
-gem 'browserify-rails', '~> 0.9.1'
+gem 'browserify-rails', '~> 1.0.1'
